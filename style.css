@@ -2,7 +2,7 @@
 
 :root {
   --blue: #83B4FF;
-  --grey: #4F709C;
+  --grey: #0058ca;
   --white: #ffffff;
 
   --shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
@@ -30,7 +30,7 @@ body {
   display: flex;
   align-items: center;
   min-width: 700px;
-  border-radius: 50px;
+  border-radius: 10px;
   background-color: var(--white);
   scale: 1.7;
 }
@@ -38,7 +38,7 @@ body {
 .dropdown {
   position: relative;
   width: 425px;
-  border-radius: 50px;
+  border-radius: 10px;
   background-color: var(--grey);
   border: 1px solid var(--white);
   box-shadow: var(--shadow);
@@ -62,7 +62,7 @@ body {
   top: 4rem;
   left: 0;
   width: 100%;
-  border-radius: 15px;
+  border-radius: 10px;
   max-height: 0;
   overflow: hidden;
   background-color: var(--white);
@@ -80,6 +80,7 @@ body {
 
 .dropdown-list-item:hover {
   margin-left: 0.5rem;
+  font-weight: bolder;
   color: var(--grey);
 }
 
