@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap");
 
 :root {
-  --blue: #83B4FF;
+  --blue: #85b6ff;
   --grey: #0058ca;
   --white: #ffffff;
 
   --shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+
+  --my-gradient: linear-gradient(to right, #0058ca 64%, #ffffff);
 }
 
 * {
@@ -29,26 +31,27 @@ body {
 .search-bar {
   display: flex;
   align-items: center;
-  min-width: 700px;
+  min-width: 200px;
   border-radius: 10px;
   background-color: var(--white);
-  scale: 1.7;
+  box-shadow: var(--shadow);
 }
 
 .dropdown {
   position: relative;
-  width: 425px;
-  border-radius: 10px;
-  background-color: var(--grey);
-  border: 1px solid var(--white);
-  box-shadow: var(--shadow);
+  width: 550px;
+  border-radius: 10px 0 0 10px;
+  /* background-color: var(--grey);*/
+  /* border: 1px solid var(--white); */
+  background: var(--my-gradient);
+  /* box-shadow: var(--shadow); */
   cursor: pointer;
 }
 
 .dropdown-text {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: start;
   font-size: 1rem;
   font-weight: 500;
   background-color: transparent;
