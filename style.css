@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap");
 
 :root {
-  --blue: #7d99e5;
-  --purple: #d11e87;
+  --blue: #83B4FF;
+  --grey: #4F709C;
   --white: #ffffff;
 
   --shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
@@ -32,13 +32,14 @@ body {
   min-width: 700px;
   border-radius: 50px;
   background-color: var(--white);
+  scale: 1.7;
 }
 
 .dropdown {
   position: relative;
   width: 425px;
   border-radius: 50px;
-  background-color: var(--purple);
+  background-color: var(--grey);
   border: 1px solid var(--white);
   box-shadow: var(--shadow);
   cursor: pointer;
@@ -79,7 +80,7 @@ body {
 
 .dropdown-list-item:hover {
   margin-left: 0.5rem;
-  color: var(--purple);
+  color: var(--grey);
 }
 
 #list.show {
@@ -91,7 +92,7 @@ body {
   align-items: center;
   padding-right: 1rem;
   width: 100%;
-  color: var(--purple);
+  color: var(--grey);
 }
 
 .search-box input {
@@ -99,7 +100,7 @@ body {
   width: 100%;
   font-size: 1rem;
   font-weight: 500;
-  color: var(--purple);
+  color: var(--grey);
   border: 0;
   outline: 0;
 }
@@ -112,7 +113,7 @@ body {
 .search-box input::placeholder {
   font-size: 1rem;
   font-weight: 500;
-  color: var(--purple);
+  color: var(--grey);
 }
 
 @media screen and (max-width: 768px) {
