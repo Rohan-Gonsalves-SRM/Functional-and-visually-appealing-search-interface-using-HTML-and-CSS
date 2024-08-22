@@ -8,6 +8,7 @@ let listItems = document.querySelectorAll(".dropdown-list-item");
 dropdownBtnText.onclick = function () {
   list.classList.toggle("show");
   icon.style.rotate = "-180deg";
+  icon.style.margin = "0 7px 0 0";
 };
 
 window.onclick = function (e) {
