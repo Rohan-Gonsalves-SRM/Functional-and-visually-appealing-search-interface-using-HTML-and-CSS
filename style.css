@@ -135,6 +135,6 @@ body {
 
 @media screen and (max-width: 320px) {
   .search-bar {
-    scale: 0.20;
+    scale: 0.4;
   }
 }
