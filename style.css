@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap");
+
 :root {
   --blue: #7d99e5;
   --purple: #d11e87;
@@ -6,6 +7,7 @@
 
   --shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -115,7 +117,7 @@ body {
 
 @media screen and (max-width: 768px) {
   .search-bar {
-    scale: 0.6;
+    scale: 0.5;
   }
 }
 
