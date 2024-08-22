@@ -117,19 +117,19 @@ body {
 
 @media screen and (max-width: 768px) {
   .search-bar {
-    scale: 0.5;
+    scale: 0.6;
   }
 }
 
 @media screen and (max-width: 425px) {
   .search-bar {
-    scale: 0.4;
+    scale: 0.5;
   }
 }
 
 @media screen and (max-width: 375px) {
   .search-bar {
-    scale: 0.4;
+    scale: 0.5;
   }
 }
 
