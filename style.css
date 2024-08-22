@@ -123,18 +123,18 @@ body {
 
 @media screen and (max-width: 425px) {
   .search-bar {
-    scale: 0.5;
+    scale: 0.4;
   }
 }
 
 @media screen and (max-width: 375px) {
   .search-bar {
-    scale: 0.5;
+    scale: 0.4;
   }
 }
 
 @media screen and (max-width: 320px) {
   .search-bar {
-    scale: 0.4;
+    scale: 0.3;
   }
 }
